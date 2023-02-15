@@ -1,0 +1,370 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal1 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+}
+
+.modal1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal1_content {
+    background-image: url(img/aigle.webp);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    position: relative; 
+    
+}
+
+/* thème2 */
+
+.modal2 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;   
+    z-index: var(1.5em);
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+
+.modal2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal2_content {
+    background-image: url(img/green\ lanter.jpg);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+}
+
+/* theme 3 */
+
+
+.modal3 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+
+}
+
+.modal3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal3_content {
+    background-image: url(img/ramoloss.jpg);
+    padding: 3em 4em;
+    width: 944px;
+    height: 544px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* theme 3 */
+
+.modal4 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    z-index: var(1.5em);
+    z-index: 2;
+
+}
+
+.modal4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal4_content {
+    background-image: url(img/sky.webp);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* theme 5 */
+
+.modal5 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+
+}
+
+.modal5:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal5_content {
+    background-image: url(img/gsp.webp);
+    padding: 3em 4em;
+    width: 914px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+}
+
+/* theme 6 */
+
+.modal6:target { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+
+}
+
+.modal6:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal6_content {
+    background-image: url(img/pizza.jpg);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+/* theme 7 */
+
+.modal7 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+}
+
+.modal7:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal7_content {
+    background-image: url(img/Zelda.jpg);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+/* formualire */
+
+.modal8 { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+}
+
+.modal8:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal8_content {
+    background-image: url(img/star.jpg);
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* credit */
+
+.credit { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(1.5em);
+    z-index: 2;
+}
+
+.credit:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.credit_content {
+    background-color: black;
+    padding: 3em 4em;
+    width: 944px;
+    height: 514px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 8px;
+    position: relative;
+    color: aliceblue;
+}
+
+
+
+
+
+.modal_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: black;
+    text-decoration: none;
+    transition: all 300ms ease-in;
+}
+
+.modal2_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal5_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal6_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal7_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal8_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* code source : https://youtu.be/XeY0Vvid1VU */
